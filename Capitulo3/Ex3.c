@@ -28,5 +28,5 @@ int main(){
     printf("O resultado de a <= b é: %s.\n", (a <= b?"Verdadeiro":"Falso"));           
     printf("O resultado de a <= b*a é: %s.\n", (a <= b*a?"Verdadeiro":"Falso"));             
     printf("O resultado de a <= a-b é: %s.\n", (a <= a-b?"Verdadeiro":"Falso"));
-
+    return 0;
 }
