@@ -16,17 +16,17 @@ int main(){
     printf("O resultado de a <= a-b é: %d.\n", a <= a-b);
 
     //Uma alternativa eh usar um operador terminário para retornar uma string
-    printf("=-=-=-=-=Ternário=-=-=-=-=");
+    printf("=-=-=-=-=Ternário=-=-=-=-=\n");
     //A avaliação de uma operação ternária se dá pelo analise da condição procedida por uma ? e depois do resultado para verdade e para falso separados por um : (Expressao?Verdadeira:falso)
-    printf("O resultado de a == b é: %s.\n", (a == b?"Sim":"Não"));
-    printf("O resultado de a == a é: %s.\n", (a == a?"Sim":"Não"));
-    printf("O resultado de a != b é: %s.\n", (a != b?"Sim":"Não"));
-    printf("O resultado de a != b*5 é: %s.\n", (a != b*5?"Sim":"Não"));
-    printf("O resultado de a > b é: %s.\n", (a > b?"Sim":"Não"));    
-    printf("O resultado de a < b é: %s.\n", (a < b?"Sim":"Não"));
-    printf("O resultado de a >= b é: %s.\n", (a >= b?"Sim":"Não"));    
-    printf("O resultado de a <= b é: %s.\n", (a <= b?"Sim":"Não"));           
-    printf("O resultado de a <= b*a é: %s.\n", (a <= b*a?"Sim":"Não"));             
-    printf("O resultado de a <= a-b é: %s.\n", (a <= a-b?"Sim":"Não"));
+    printf("O resultado de a == b é: %s.\n", (a == b?"Verdadeiro":"Falso"));
+    printf("O resultado de a == a é: %s.\n", (a == a?"Verdadeiro":"Falso"));
+    printf("O resultado de a != b é: %s.\n", (a != b?"Verdadeiro":"Falso"));
+    printf("O resultado de a != b*5 é: %s.\n", (a != b*5?"Verdadeiro":"Falso"));
+    printf("O resultado de a > b é: %s.\n", (a > b?"Verdadeiro":"Falso"));    
+    printf("O resultado de a < b é: %s.\n", (a < b?"Verdadeiro":"Falso"));
+    printf("O resultado de a >= b é: %s.\n", (a >= b?"Verdadeiro":"Falso"));    
+    printf("O resultado de a <= b é: %s.\n", (a <= b?"Verdadeiro":"Falso"));           
+    printf("O resultado de a <= b*a é: %s.\n", (a <= b*a?"Verdadeiro":"Falso"));             
+    printf("O resultado de a <= a-b é: %s.\n", (a <= a-b?"Verdadeiro":"Falso"));
 
 }
