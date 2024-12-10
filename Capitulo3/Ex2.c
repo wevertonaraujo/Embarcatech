@@ -1,8 +1,8 @@
 //Operadores Aritiméticos
 #include <stdio.h>
 int main(){
-    int a = 10;
-    int b = 2;
+    int a = 25;
+    int b = 5;
     printf("O resultado de %d + %d é: %d \n", a, b, a+b);
     printf("O resultado de %d - %d é: %d \n", a, b, a-b);
     printf("O resultado de %d * %d é: %d \n", a, b, a*b);
